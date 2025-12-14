@@ -132,3 +132,12 @@ INSERT INTO addresses (user_id, street_address, city, province, zip_code) VALUES
 (18, '99 Folding Point, Pinagbuhatan', 'Pasig', 'Metro Manila', '1600'),
 (19, '3 Resin Light, Mambaling', 'Cebu City', 'Cebu', '6004'),
 (20, '1 Coconut Oil Dr., Calamba', 'Lucena City', 'Quezon', '4301');
+
+INSERT INTO category (name, code) VALUES
+('Home & Functional Ceramics', 'CERAMIC'),
+('Sustainable Textiles & Fiber Art', 'TEXTILE'),
+('Leather & Wood Goods', 'WOOD'),
+('Personal Accessories & Jewelry', 'JEWELRY'),
+('Fine Art & Stationery', 'ART'),
+('Aromatics & Wellness', 'WELLNESS'),
+('Heirloom & Custom Gifts', 'GIFT');
