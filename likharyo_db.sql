@@ -256,3 +256,38 @@ INSERT INTO items (name, description, price, stock, shop_id, category_id) VALUES
 ('Proof of Hand Dinner Bowl Set', 'Set of two rustic, durable bowls designed for daily use. Their imperfection is proof of soulful creation.', 1800.00, 8, 10, 1),
 ('Artisan''s Thumbprint Sake Cups', 'A set of four tiny cups featuring the clear indentations of Nico''s thumb where the cup was pinched during throwing.', 1400.00, 12, 10, 1),
 ('Glaze Study Decorative Tile', 'A small, square tile used to test a new homemade glaze. A collector''s piece celebrating the unpredictability of fire.', 1200.00, 6, 10, 1),
+
+-- Shop 11: Skye and Stitch (Sustainable Textiles & Fiber Art - ID 2)
+('Reborn Barong Tagalog Clutch', 'A stylish clutch bag crafted from disassembled vintage Barong fabrics. Each piece carries a unique slice of history.', 2600.00, 10, 11, 2),
+('Filipiniana Scrap Patchwork Pouch', 'A small zippered pouch made from a colorful, curated mosaic of old Filipiniana dress scraps.', 1500.00, 15, 11, 2),
+('The Second Life Upcycled Scarf', 'A long scarf created by carefully piecing together undamaged sections of discarded luxury fabrics and silk.', 3100.00, 7, 11, 2),
+('Textile History Wall Banner', 'A decorative hanging banner featuring layered, stitched sections of various Filipino textile remnants.', 4200.00, 4, 11, 2),
+('Zero-Waste Cord Wraps', 'Set of small fabric wraps made from the smallest fabric scraps.', 800.00, 30, 11, 2),
+
+-- Shop 12: Amari Fine Filigree (Personal Accessories & Jewelry - ID 4)
+('Ancestral Filigree Drop Earrings', 'Delicate sterling silver drop earrings featuring intricate, lacelike metalwork.', 5500.00, 8, 12, 4),
+('Survival of the Craft Ring', 'A substantial ring symbolizing the dedication required to keep filigree alive.', 4800.00, 6, 12, 4),
+('Heirloom-Quality Filigree Brooch', 'A statement brooch crafted entirely from fine, hand-twisted silver wire.', 6200.00, 5, 12, 4),
+('The Ilocos Bloom Pendant', 'A small, floral pendant designed using traditional filigree techniques learned from Ilocano masters.', 3500.00, 10, 12, 4),
+('Metal Thread Dainty Bracelet', 'A delicate thin bracelet made of fine silver thread, perfect for stacking.', 2900.00, 15, 12, 4),
+
+-- Shop 13: Chloe's Comfort Quilt (Heirloom & Custom Gifts - ID 7)
+('The Generational Memory Quilt', 'Large, custom-commissioned quilt made from your loved ones'' significant fabric scraps and old clothing. Price varies.', 18000.00, 1, 13, 7),
+('Heavy Comfort Lap Throw', 'A smaller, weighted quilt designed to provide a sense of security and comforting embrace while reading or resting.', 8500.00, 5, 13, 7),
+('Family History Stitched Pillow', 'A large, decorative pillow made from patchwork blocks, ideal for displaying and cherishing small fabric memories.', 3500.00, 8, 13, 7),
+('The Endurance Baby Quilt', 'A small, durable quilt made from high-quality cottons designed to be washed, loved, and passed down.', 4900.00, 6, 13, 7),
+('Patchwork Table Runner', 'A colorful, narrow runner made from carefully selected fabric remnants, adding warmth and history to your dining table.', 2800.00, 10, 13, 7),
+
+-- Shop 14: Javi Custom Furniture (Leather & Wood Goods - ID 3)
+('The Patient-Crafted Console Table', 'Slim entry table made from Philippine hardwood, featuring impeccable joinery and a hand-oiled finish.', 16000.00, 2, 14, 3),
+('Legacy Wood Hand-Sanded Stool', 'A sturdy, compact stool built to last a century. The smooth finish is the result of hours of hand-sanding.', 7500.00, 5, 14, 3),
+('Anti-Disposable Investment Shelf', 'A minimalist floating shelf designed with traditional, durable joinery. Requires weeks of intentional creation.', 9800.00, 3, 14, 3),
+('The Heirloom Cutting Board', 'An extra-thick, heavy-duty cutting board designed for professional use, meant to gather character and last forever.', 4500.00, 7, 14, 3),
+('Woodworker''s Signature Pen Holder', 'A small, elegant desk accessory showcasing a flawless, hand-oiled finish on a block of Philippine mahogany.', 2100.00, 10, 14, 3),
+
+-- Shop 15: Ava’s Painted Stones (Fine Art & Stationery - ID 5)
+('River Stone Miniature Landscape', 'A smooth, natural river stone painted with a detailed, miniature scene of a Filipino rice terrace or beach.', 1500.00, 15, 15, 5),
+('Found Beauty Hand-Painted Wildlife Rock', 'A naturally-shaped stone featuring a lifelike painting of a Philippine Eagle or local butterfly.', 1800.00, 10, 15, 5),
+('Underfoot Canvas Custom Pet Portrait', 'Commission a detailed miniature portrait of a beloved pet, painted on a smooth, naturally-formed stone. Price varies.', 2500.00, 5, 15, 5),
+('Flora & Fauna Stone Garden Markers', 'Set of three flat stones painted with local herbs and flowers, perfect for marking plants or decorating windowsills.', 1900.00, 12, 15, 5),
+('Painted Pebble Paperweight', 'A simple, elegant painted stone used to anchor papers, adding a touch of natural art to the workspace.', 1100.00, 18, 15, 5),
