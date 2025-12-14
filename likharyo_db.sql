@@ -221,3 +221,38 @@ INSERT INTO items (name, description, price, stock, shop_id, category_id) VALUES
 ('Legacy Full-Grain Belt', 'A simple, durable leather belt cut from a single, high-quality hide, finished with a solid brass buckle.', 3800.00, 10, 5, 3),
 ('Desk Mat of Durability', 'A large, thick leather mat for the desktop, providing a smooth workspace and protecting the desk underneath.', 6200.00, 5, 5, 3),
 ('Personalized Cable Keeper Set', 'Set of three small leather snaps to manage wires and cables. Monogramming available.', 1050.00, 20, 5, 3),
+
+-- Shop 6: Zoey's Resin Gems (Personal Accessories & Jewelry - ID 4)
+('Immortality Petal Pendant', 'A single, vibrant petal from a Philippine orchid, perfectly suspended in a clear, round resin necklace.', 2200.00, 15, 6, 4),
+('Palawan Sand Micro-Landscape Ring', 'A ring featuring tiny layers of sand, moss, and shells, creating a miniature world sealed within the resin dome.', 1950.00, 10, 6, 4),
+('Ephemeral Beauty Stud Earrings', 'Tiny stud earrings featuring preserved moss and gold leaf, capturing the fleeting greenness of the wilderness.', 1400.00, 25, 6, 4),
+('Botanical Micro-Museum Coasters', 'Set of four clear resin coasters embedded with dried ferns and flowers.', 3800.00, 6, 6, 4),
+('Oceanic Flow Hair Pin', 'A long hair pin with blue-tinted resin embedded with seafoam and beach-combed elements.', 1650.00, 10, 6, 4),
+
+-- Shop 7: Liam Letterpress Studio (Fine Art & Stationery - ID 5)
+('The Tactile Thank You Card Set', 'A set of 10 thank you cards printed on thick cotton paper, featuring a deep, satisfying impression.', 1800.00, 30, 7, 5),
+('Slower is Soulful Art Print', 'A small, black and white quote print affirming the value of slow craft.', 1500.00, 15, 7, 5),
+('Hand-Fed Custom Stationery', 'Personalized letterhead and envelopes, individually hand-fed through the antique press for unmatched quality.', 4500.00, 5, 7, 5),
+('The Legacy Coaster Set', 'Set of four thick-stock coasters featuring classic Filipino script and deep debossing.', 1100.00, 20, 7, 5),
+('Vintage Manila Map Print', 'A historical map of Manila printed using a two-color letterpress technique on textured archival paper.', 2800.00, 10, 7, 5),
+
+-- Shop 8: Luna & Stars Jewelry (Personal Accessories & Jewelry - ID 4)
+('Custom Birth Constellation Necklace', 'A pendant featuring hand-set stones arranged to mirror the wearer''s birth star pattern.', 3900.00, 8, 8, 4),
+('Solstice Moon Phase Ring', 'A sterling silver ring engraved with the exact moon phase from a significant date.', 3200.00, 10, 8, 4),
+('Celestial Map Studs', 'Simple, geometric studs representing the major stars of the Philippine sky.', 2100.00, 18, 8, 4),
+('Andromeda Stacking Bracelet', 'A delicate silver chain bracelet with tiny, spaced celestial charms.', 2500.00, 15, 8, 4),
+('Cosmic Connection Locket', 'A locket with a high-polish finish, designed to hold a small photo and engraved with the wearer''s zodiac sign.', 4800.00, 7, 8, 4),
+
+-- Shop 9: Cielo Aromatic Crafts (Aromatics & Wellness - ID 6)
+('Sampaguita Dawn Soy Candle', 'Natural soy wax candle with a pure essential oil blend that perfectly captures the scent of morning.', 1400.00, 20, 9, 6),
+('Bicol Sea Salt Air Reed Diffuser', 'A non-toxic, slow-release diffuser using local oils to bring the crisp, clean scent of the Bicol coast.', 1800.00, 15, 9, 6),
+('Post-Rain Earth Musk Wax Melts', 'Small wax melts that evoke the deep, comforting, earthy smell of petrichor.', 850.00, 30, 9, 6),
+('Gumamela & Honey Hand Balm', 'A rich, natural hand balm made with local beeswax and a hint of Gumamela floral essence.', 950.00, 25, 9, 6),
+('Aromatherapy Travel Tin Set', 'Set of three small, portable candles: Dawn, Noon, and Dusk, each with a distinct Philippine scent profile.', 2500.00, 10, 9, 6),
+
+-- Shop 10: Nico's Wheel & Glaze (Home & Functional Ceramics - ID 1)
+('Wabi-Sabi Daily Coffee Mug', 'Hand-thrown mug with a deliberate, natural wobble and a unique crackle glaze. No two are exactly alike.', 950.00, 10, 10, 1),
+('Honest Form Serving Platter', 'A wide, low serving platter with an intentionally asymmetrical shape, showcasing the marks of throwing.', 3600.00, 5, 10, 1),
+('Proof of Hand Dinner Bowl Set', 'Set of two rustic, durable bowls designed for daily use. Their imperfection is proof of soulful creation.', 1800.00, 8, 10, 1),
+('Artisan''s Thumbprint Sake Cups', 'A set of four tiny cups featuring the clear indentations of Nico''s thumb where the cup was pinched during throwing.', 1400.00, 12, 10, 1),
+('Glaze Study Decorative Tile', 'A small, square tile used to test a new homemade glaze. A collector''s piece celebrating the unpredictability of fire.', 1200.00, 6, 10, 1),
