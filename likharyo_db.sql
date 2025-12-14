@@ -88,3 +88,25 @@ CREATE TABLE ratings (
     value INT NOT NULL,
     CONSTRAINT uq_user_shop_rating UNIQUE (user_id, shop_id)
 );
+
+INSERT INTO users (username, password_hash, first_name, last_name, gender, birthdate, contact_num, is_admin) VALUES
+('ZiaMadePH', 'default_hash', 'Zia', 'Gonzales', 'Female', '1995-03-12', '09171234567', TRUE),
+('AltheaCreates', 'default_hash', 'Althea', 'Ramos', 'Female', '1992-08-21', '09172345678', TRUE),
+('KaiGoods', 'default_hash', 'Kai', 'Tan', 'Male', '1990-11-05', '09173456789', TRUE),
+('MaelysWeave', 'default_hash', 'Maelys', 'Santos', 'Female', '1998-04-19', '09174567890', TRUE),
+('EthanLeather', 'default_hash', 'Ethan', 'Lopez', 'Male', '1993-01-25', '09175678901', TRUE),
+('ZoeyAtbp', 'default_hash', 'Zoey', 'Villanueva', 'Female', '2001-07-30', '09176789012', TRUE),
+('LiamPrint', 'default_hash', 'Liam', 'De La Cruz', 'Male', '1996-10-01', '09177890123', TRUE),
+('LunaCrafted', 'default_hash', 'Luna', 'Reyes', 'Female', '1997-12-14', '09178901234', TRUE),
+('CieloScents', 'default_hash', 'Cielo', 'Mendoza', 'Female', '1991-05-08', '09179012345', TRUE),
+('NicoCeramics', 'default_hash', 'Nico', 'Lim', 'Male', '1994-06-28', '09181234567', TRUE),
+('SkyeTextile', 'default_hash', 'Skye', 'Garcia', 'Female', '1999-02-03', '09182345678', TRUE),
+('AmariMetals', 'default_hash', 'Amari', 'Dela Rosa', 'Female', '1990-09-17', '09183456789', TRUE),
+('ChloeQuilts', 'default_hash', 'Chloe', 'Aquino', 'Female', '1993-03-29', '09184567890', TRUE),
+('JaviBuilds', 'default_hash', 'Javi', 'Torres', 'Male', '1997-07-07', '09185678901', TRUE),
+('AvaPaints', 'default_hash', 'Ava', 'Salazar', 'Female', '2000-04-11', '09186789012', TRUE),
+('XanderWares', 'default_hash', 'Xander', 'Bautista', 'Male', '1995-08-04', '09187890123', TRUE),
+('FreyaClay', 'default_hash', 'Freya', 'Castro', 'Female', '1991-05-22', '09188901234', TRUE),
+('ZenCraftsMNL', 'default_hash', 'Zen', 'Ramos', 'Male', '1998-09-10', '09189012345', TRUE),
+('ElioLighting', 'default_hash', 'Elio', 'Fernandez', 'Male', '1994-12-03', '09191234567', TRUE),
+('MilaKape', 'default_hash', 'Mila', 'Corpuz', 'Female', '1992-06-16', '09192345678', TRUE);
