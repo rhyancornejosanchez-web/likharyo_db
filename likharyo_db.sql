@@ -185,3 +185,39 @@ SELECT
     (SELECT user_id FROM users WHERE username = 'ZenCraftsMNL') AS ZenCraftsMNL_ID,
     (SELECT user_id FROM users WHERE username = 'ElioLighting') AS ElioLighting_ID,
     (SELECT user_id FROM users WHERE username = 'MilaKape') AS MilaKape_ID;
+
+INSERT INTO items (name, description, price, stock, shop_id, category_id) VALUES
+-- Shop 1: The Zia Clay Studio (Home & Functional Ceramics - ID 1)
+('Lola''s Legacy Coffee Mug', 'Hand-coiled mug using Kapampangan technique, finished in a smooth, modern white glaze. Perfectly weighted for comfort.', 850.00, 10, 1, 1),
+('Pampanga Sunrise Pinch Bowl', 'Set of three small, earthy bowls, ideal for condiments or spices. Features exposed terracotta clay along the base.', 1200.00, 5, 1, 1),
+('Heritage Coil-Built Vase', 'Tall, structural vase built entirely by hand-coiling. A statement piece that bridges ancient craft and modern interior design.', 4500.00, 3, 1, 1),
+('The Zia Signature Dinner Plate', 'Large, flat plate with a subtle, intentional irregularity in the rim, glazed in deep, matte forest green.', 1500.00, 8, 1, 1),
+('Earth''s Embrace Incense Holder', 'A small, organic piece designed to hold burning incense, inspired by the curvature of clay as it dries.', 650.00, 12, 1, 1),
+
+-- Shop 2: Althea's Knit & Knot (Sustainable Textiles & Fiber Art - ID 2)
+('Kapayapaan Weighted Throw', 'A large, densely knit throw blanket designed for comfort and anxiety relief. Crafted with therapeutic, repetitive stitches.', 7800.00, 4, 2, 2),
+('Hinga Meditation Mat', 'A circular, crocheted mat made from recycled cotton rope, offering a soft, textured space for breathing and mindfulness.', 3200.00, 6, 2, 2),
+('Resilience Texture Pillow Cover', 'A decorative cushion cover with intricate cable-knit patterns symbolizing strength and recovery.', 1800.00, 15, 2, 2),
+('Therapy Yarn Keychain Set', 'Small, woven keychains made from yarn scraps. A pocket-sized reminder to pause and breathe.', 750.00, 20, 2, 2),
+('Moms'' Collaborative Shawl', 'A lightweight shawl featuring panels knit by three different mothers, symbolizing community and shared purpose.', 4500.00, 7, 2, 2),
+
+-- Shop 3: Kai's Minimalist Wood (Leather & Wood Goods - ID 3)
+('The Architect''s Desk Organizer', 'Minimalist organizer made from reclaimed Narra wood. Features clean lines and multiple slots for essentials.', 2900.00, 9, 3, 3),
+('Honest Scrap Coaster Set', 'Set of four coasters made entirely from wood offcuts and construction waste.', 1100.00, 18, 3, 3),
+('Enduring Elegance Cutting Board', 'Solid block cutting board made from a single piece of reclaimed Philippine hardwood.', 3500.00, 6, 3, 3),
+('Recycled Timber Catchall Tray', 'A simple, wide, low-profile tray for keys, phones, or wallet.', 2100.00, 11, 3, 3),
+('Zero-Waste Planter Stand', 'Small, sturdy platform made from construction scrap, designed to elevate a ceramic planter.', 1600.00, 14, 3, 3),
+
+-- Shop 4: Maëlys Fabric & Thread (Sustainable Textiles & Fiber Art - ID 2)
+('100-Hour Waling-Waling Art', 'Intricate museum-quality embroidery capturing the vibrant life of the Philippine orchid. Certificate guarantees 100+ working hours.', 9500.00, 2, 4, 2),
+('Patient Stitch Bird Brooch', 'A tiny, highly detailed, hand-stitched brooch featuring a native Philippine bird.', 1900.00, 10, 4, 2),
+('Fauna Tapestry Wall Hanging', 'A medium-sized textile piece depicting a lush forest scene, created using hundreds of thousands of individual stitches.', 14000.00, 1, 4, 2),
+('The Devotional Bookmark', 'A thin fabric bookmark featuring a miniature, precise floral embroidery.', 650.00, 25, 4, 2),
+('Monochrome Insect Study', 'A small, black and white embroidery piece studying the geometry of a local insect.', 3800.00, 5, 4, 2),
+
+-- Shop 5: Ethan's Leather Works (Leather & Wood Goods - ID 3)
+('Marikina Heirloom Bifold Wallet', 'Hand saddle-stitched wallet made from vegetable-tanned cowhide. Designed to last decades, guaranteed for life.', 3400.00, 12, 5, 3),
+('The Traveler''s Sentinel Pouch', 'A rugged, compact zippered pouch ideal for cables, passports, or small tools. Ages beautifully with use.', 4100.00, 8, 5, 3),
+('Legacy Full-Grain Belt', 'A simple, durable leather belt cut from a single, high-quality hide, finished with a solid brass buckle.', 3800.00, 10, 5, 3),
+('Desk Mat of Durability', 'A large, thick leather mat for the desktop, providing a smooth workspace and protecting the desk underneath.', 6200.00, 5, 5, 3),
+('Personalized Cable Keeper Set', 'Set of three small leather snaps to manage wires and cables. Monogramming available.', 1050.00, 20, 5, 3),
