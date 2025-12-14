@@ -110,3 +110,25 @@ INSERT INTO users (username, password_hash, first_name, last_name, gender, birth
 ('ZenCraftsMNL', 'default_hash', 'Zen', 'Ramos', 'Male', '1998-09-10', '09189012345', TRUE),
 ('ElioLighting', 'default_hash', 'Elio', 'Fernandez', 'Male', '1994-12-03', '09191234567', TRUE),
 ('MilaKape', 'default_hash', 'Mila', 'Corpuz', 'Female', '1992-06-16', '09192345678', TRUE);
+
+INSERT INTO addresses (user_id, street_address, city, province, zip_code) VALUES
+(1, '88 Duyan St., San Roque', 'San Fernando', 'Pampanga', '2000'),
+(2, '12 Munting Lupa, Poblacion', 'Quezon City', 'Metro Manila', '1100'),
+(3, 'Blk 5 Lot 14 Aklan Rd., Holy Spirit', 'Cebu City', 'Cebu', '6000'),
+(4, '77 Makisig Ave., San Isidro', 'Makati', 'Metro Manila', '1200'),
+(5, '22 Shoe Road, Concepcion Uno', 'Marikina', 'Metro Manila', '1800'),
+(6, '9 Palawan Way, Sta. Monica', 'Puerto Princesa', 'Palawan', '5300'),
+(7, '4 Antique Press Lane, Sampaloc', 'Manila', 'Metro Manila', '1008'),
+(8, '16 Constellation Blvd., Kanan', 'Legazpi', 'Albay', '4500'),
+(9, '33 Aromatics Circle, Purok 5', 'Naga City', 'Camarines Sur', '4400'),
+(10, '10 Glaze Trail, Malinta', 'Valenzuela', 'Metro Manila', '1440'),
+(11, '5 Barong Thread, San Jose', 'Baguio City', 'Benguet', '2600'),
+(12, '1 Filigree St., Poblacion', 'Vigan', 'Ilocos Sur', '2700'),
+(13, '18 Comfort Lane, Commonwealth', 'Quezon City', 'Metro Manila', '1121'),
+(14, '6 Joinery Road, Sta. Cruz', 'Davao City', 'Davao del Sur', '8000'),
+(15, '15 River Stone Path, San Agustin', 'Tagaytay City', 'Cavite', '4120'),
+(16, '22 Knotting Loop, Talisay', 'Bacolod City', 'Negros Occidental', '6100'),
+(17, '7 Earthy Hill, Polo', 'Iloilo City', 'Iloilo', '5000'),
+(18, '99 Folding Point, Pinagbuhatan', 'Pasig', 'Metro Manila', '1600'),
+(19, '3 Resin Light, Mambaling', 'Cebu City', 'Cebu', '6004'),
+(20, '1 Coconut Oil Dr., Calamba', 'Lucena City', 'Quezon', '4301');
