@@ -291,3 +291,70 @@ INSERT INTO items (name, description, price, stock, shop_id, category_id) VALUES
 ('Underfoot Canvas Custom Pet Portrait', 'Commission a detailed miniature portrait of a beloved pet, painted on a smooth, naturally-formed stone. Price varies.', 2500.00, 5, 15, 5),
 ('Flora & Fauna Stone Garden Markers', 'Set of three flat stones painted with local herbs and flowers, perfect for marking plants or decorating windowsills.', 1900.00, 12, 15, 5),
 ('Painted Pebble Paperweight', 'A simple, elegant painted stone used to anchor papers, adding a touch of natural art to the workspace.', 1100.00, 18, 15, 5),
+
+-- Shop 16: Xander's Modern Macrame (Sustainable Textiles & Fiber Art - ID 2)
+('Rhythmic Form Wall Hanging', 'A large, complex macrame piece focusing on deep geometry and structure, translating musical rhythm into knots.', 6800.00, 5, 16, 2),
+('Geometry of Emotion Planter Hanger', 'A sturdy macrame plant hanger featuring complex knot patterns.', 2900.00, 10, 16, 2),
+('The Quiet Strength Room Divider', 'A large, semi-transparent macrame panel used to define space without fully blocking light.', 12000.00, 2, 16, 2),
+('Sensory Texture Trivet Set', 'A set of three thick, durable knotted trivets for hot items.', 1500.00, 15, 16, 2),
+('Minimalist Knot Keychain', 'A small keychain demonstrating a single, complex knot pattern.', 750.00, 20, 16, 2),
+
+-- Shop 17: Freya's Earthy Trinkets (Home & Functional Ceramics - ID 1)
+('Perfectly Imperfect Jewelry Dish', 'A small, organic jewelry dish featuring clear fingertip marks and a slightly uneven rim.', 750.00, 15, 17, 1),
+('Honest Form Hand-Shaped Soap Tray', 'A natural clay tray for bar soap, intentionally irregular and uncoated to embrace its earthy texture.', 650.00, 20, 17, 1),
+('The Authentic Bowl', 'A medium-sized decorative bowl with a heavy base and an intentionally asymmetrical shape.', 1800.00, 10, 17, 1),
+('Organic Clay Planter', 'A small, porous planter designed to mimic the raw, rough texture of earth, perfect for small succulents.', 900.00, 15, 17, 1),
+('Earthy Texture Candle Vessel', 'A simple, unglazed clay vessel for small candles, designed to be reused and touched.', 1100.00, 12, 17, 1),
+
+-- Shop 18: Zen Paper Art (Fine Art & Stationery - ID 5)
+('Mindfulness Folded Paper Wall Panel', 'A large, three-dimensional geometric art piece created from thousands of meticulously folded paper units.', 7500.00, 3, 18, 5),
+('Focused Patience Quilled Art Piece', 'A small, detailed piece made entirely of tiny, rolled paper strips, requiring hours of intense concentration.', 2900.00, 6, 18, 5),
+('Extraordinary Detail Paper Frame', 'A small photo frame decorated with hundreds of precise, hand-rolled paper flowers and designs.', 2200.00, 8, 18, 5),
+('The Calming Grid Art Print', 'A limited edition print of a complex paper grid pattern, representing discipline and mental clarity.', 1500.00, 15, 18, 5),
+('Geometric Paper Sculpture', 'A small, freestanding paper sculpture made of interlocking, folded modules. A desk ornament for focus.', 1800.00, 10, 18, 5),
+
+-- Shop 19: Elio's Light & Resin (Heirloom & Custom Gifts - ID 7)
+('Commission: Illuminated Memory Lamp', 'Bespoke large lamp where the client’s sentimental objects are embedded and lit from within. Price varies (commission).', 15000.00, 1, 19, 7),
+('Bespoke History Cube Nightlight', 'A small, personalized nightlight cube embedding small objects provided by the client.', 5800.00, 5, 19, 7),
+('The Personal Talisman Desk Light', 'A small resin table lamp embedding personalized text or a small, symbolic plant, illuminating a daily ritual.', 7500.00, 4, 19, 7),
+('Floral Keepsake Resin Pendant', 'A necklace pendant made by sealing the client’s own dried flowers in resin.', 3200.00, 10, 19, 7),
+('Glow of Memory Coaster Set', 'Set of four resin coasters where the client provides small, flat paper mementos to be embedded.', 4100.00, 6, 19, 7),
+
+-- Shop 20: Mila Handmade Soaps (Aromatics & Wellness - ID 6)
+('Mother''s Purity Coconut Milk Bar', 'A pure, unscented cold-process soap made with extra coconut milk. Ideal for sensitive skin and babies.', 350.00, 50, 20, 6),
+('Gentle Care Local Herb Soap Bar', 'A soap bar infused with locally sourced chamomile and oatmeal, providing soothing relief for allergic or irritated skin.', 380.00, 40, 20, 6),
+('Peace of Mind Calming Bath Soak', 'A blend of natural salts and pure lavender oil, designed to promote relaxation.', 750.00, 20, 20, 6),
+('Nourishing Shea Butter Lip Balm', 'A small tin of balm made with high-quality shea butter and a touch of local beeswax for intense moisture.', 450.00, 30, 20, 6),
+('Tropical Citrus Kitchen Bar', 'A large, dense soap bar with a strong citrus scent and exfoliating grit, designed to remove cooking odors and grime.', 400.00, 35, 20, 6);
+
+SELECT
+    (SELECT shop_id FROM shops WHERE name = 'The Zia Clay Studio') AS ZiaClayStudio_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Althea''s Knit & Knot') AS AltheasKnitKnot_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Kai''s Minimalist Wood') AS KaisMinimalistWood_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Maëlys Fabric & Thread') AS MaelysFabricThread_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Ethan''s Leather Works') AS EthansLeatherWorks_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Zoey''s Resin Gems') AS ZoeysResinGems_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Liam Letterpress Studio') AS LiamLetterpressStudio_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Luna & Stars Jewelry') AS LunaStarsJewelry_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Cielo Aromatic Crafts') AS CieloAromaticCrafts_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Nico''s Wheel & Glaze') AS NicosWheelGlaze_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Skye and Stitch') AS SkyeandStitch_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Amari Fine Filigree') AS AmariFineFiligree_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Chloe''s Comfort Quilt') AS ChloesComfortQuilt_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Javi Custom Furniture') AS JaviCustomFurniture_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Ava’s Painted Stones') AS AvasPaintedStones_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Xander''s Modern Macrame') AS XandersModernMacrame_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Freya''s Earthy Trinkets') AS FreyasEarthyTrinkets_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Zen Paper Art') AS ZenPaperArt_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Elio''s Light & Resin') AS EliosLightResin_ID,
+    (SELECT shop_id FROM shops WHERE name = 'Mila Handmade Soaps') AS MilaHandmadeSoaps_ID,
+    
+    (SELECT id FROM category WHERE name = 'Home & Functional Ceramics') AS HomeCeramics_ID,
+    (SELECT id FROM category WHERE name = 'Sustainable Textiles & Fiber Art') AS TextilesFiberArt_ID,
+    (SELECT id FROM category WHERE name = 'Leather & Wood Goods') AS LeatherWoodGoods_ID,
+    (SELECT id FROM category WHERE name = 'Personal Accessories & Jewelry') AS PersonalJewelry_ID,
+    (SELECT id FROM category WHERE name = 'Fine Art & Stationery') AS FineArtStationery_ID,
+    (SELECT id FROM category WHERE name = 'Aromatics & Wellness') AS AromaticsWellness_ID,
+    (SELECT id FROM category WHERE name = 'Heirloom & Custom Gifts') AS HeirloomCustomGifts_ID;
+
+COMMIT;
